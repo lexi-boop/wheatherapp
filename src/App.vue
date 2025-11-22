@@ -70,17 +70,14 @@ function dateBuilder(d) {
 
   return `${day} ${date} ${month} ${year}`
 }
-
-</script>
- <script>
-            function getWeatherClass(temp){
+function getWeatherClass(temp){
               if(temp < 10) return 'frio';
               else if(temp >= 10 && temp < 20) return 'templado';
               else if(temp >= 20 && temp < 30) return 'calor';
               else return 'muy-caluroso';
             }
-       
-            </script>
+
+</script>
 
  <style>
 body {
